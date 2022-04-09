@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on Terminal</title>
+    <link>/tags/python/</link>
+    <description>Recent content in python on Terminal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 08 Apr 2022 23:38:16 -0300</lastBuildDate><atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python深入教學</title>
+      <link>/posts/python_t/</link>
+      <pubDate>Fri, 08 Apr 2022 23:38:16 -0300</pubDate>
+      
+      <guid>/posts/python_t/</guid>
+      <description> 安裝教學  </description>
+      <content>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;./install.md&#34;&gt;安裝教學&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Terminal</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Terminal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 08 Apr 2022 23:38:16 -0300</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python深入教學</title>
+      <link>/posts/python_t/</link>
+      <pubDate>Fri, 08 Apr 2022 23:38:16 -0300</pubDate>
+      
+      <guid>/posts/python_t/</guid>
+      <description> 安裝教學  </description>
+      <content>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;./install.md&#34;&gt;安裝教學&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>我最喜歡的程式語言</title>
+      <link>/posts/hello/</link>
+      <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/hello/</guid>
+      <description>大家在寫程式的時候，我想一定會有那些喜歡，討厭，或者被迫使用的語言。接下來讓我揭曉我心目中的前五吧。
+提示 前五裡面，有4個程序式，3個動態語言，2個物件導向語言，3個函數式。答案公布！！
+5 - C語言 不重要的簡介 C是tiobe排行榜上搜索次數最高的語言，如果最經典的平台冒險遊戲是超級瑪利歐，那最經典的程式語言應該就是C了，C曾被用于linux，git的開發，由我們的linux之父，Linus Torvalds，他非常的喜歡C，曾說過&amp;quot;Nothing better than C&amp;quot;，還看起來非常討厭C++。我的話，是不討厭C++，但是我覺得寫低階的東西，又要盡可能的用高階的東西，感覺有點複雜。
+我喜歡的點  開發者可以自行實現大部分的資料型別，讓你可以很好的了解資料型別的內部 支持指標 快 簡單，直接的語言，沒有太多的，高階內容和設計概念要學，跟專注於程式低階的概念 非OOP 支持union 無GC，有用戶進行記憶體管理  我討厭的點  符號有時候會寫的很複雜 不支持函數式編程 不支持Polymophsim 除了擅長的領域外的生態庫很差  4 - Lua 不重要的簡介 Lua是由巴西某所大學的Roberto Ierusalimschy，Luiz Henrique de Figueiredo和Waldemar Celes，於1992年開發的，讀作魯～啊。語言的特點是直譯器（Lua官方）或編譯器（LuaJIT）非常的小，動態語言，容易用C擴充，容易嵌入C語言作為腳本語言用，並且語言本身的關鍵字和標準庫的內容都不算多，沒有python或javascript那些煩人的東西後，這讓lua顯得非常好學，主要用於遊戲，一般搭配love2d遊戲引擎，但遊戲引擎的數量非常多，像是有PICO-8，Defold和等等。我個人認為Lua適合開發一些消耗沒這麼大的遊戲。
+我喜歡的點  易學 寫法很語法化 相較其他腳本語言顯得非常快速 有些API跟C API相似 關鍵字很少 標準庫很小 可以用於遊戲開發  我討厭的點  生態庫集中在遊戲，其他的領域幾乎不能用 作為嵌入腳本語言，有時候很依賴執行環境 不支持靜態型別  3 - Ruby 不重要的簡介 ruby是由松本幸弘開發的動態語言，目的是弄出更好的perl，語法類似perl和smalltalk。ruby是非常重物件導向的語言，所有的基礎型別都是物件，包括模組等等。ruby還有很多別的語言都沒有的型別，Atom，基本上就是一個不可變的String，一般會遵守變數和函數命名方式。
+我喜歡的點  語法美麗 支持Atom資料型別 輔助函数很多很完善 較完整的支持OOP（但還是不支持Polymophism） 支持函數式編程  我討厭的點  速度慢 不支持靜態型別 不支持Polymophism  2 - Rust 不重要的簡介 Rust是由Mozilla開發的程式語言，沒有GC，主要宣揚記憶體安全和效率。語言本身的速度非常快，並且沒有”無”的概念，取而代之的是Option資料型別，要靠match來處理無和存在數值的邏輯，Rust借鑑了一些FP概念，使這個語言變得非常的獨特並且比C++簡單。Rust有專屬自己的記憶體處理方法，ownership and borrowing，使它不需要特別去處理記憶體。</description>
+      <content>&lt;p&gt;大家在寫程式的時候，我想一定會有那些喜歡，討厭，或者被迫使用的語言。接下來讓我揭曉我心目中的前五吧。&lt;/p&gt;
+&lt;h1 id=&#34;提示&#34;&gt;提示&lt;/h1&gt;
+&lt;p&gt;前五裡面，有4個程序式，3個動態語言，2個物件導向語言，3個函數式。答案公布！！&lt;/p&gt;
+&lt;h1 id=&#34;5---c語言&#34;&gt;5 - C語言&lt;/h1&gt;
+&lt;h2 id=&#34;不重要的簡介&#34;&gt;不重要的簡介&lt;/h2&gt;
+&lt;p&gt;C是tiobe排行榜上搜索次數最高的語言，如果最經典的平台冒險遊戲是超級瑪利歐，那最經典的程式語言應該就是C了，C曾被用于linux，git的開發，由我們的linux之父，Linus Torvalds，他非常的喜歡C，曾說過&amp;quot;Nothing better than C&amp;quot;，還看起來非常討厭C++。我的話，是不討厭C++，但是我覺得寫低階的東西，又要盡可能的用高階的東西，感覺有點複雜。&lt;/p&gt;
+&lt;h2 id=&#34;我喜歡的點&#34;&gt;我喜歡的點&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;開發者可以自行實現大部分的資料型別，讓你可以很好的了解資料型別的內部&lt;/li&gt;
+&lt;li&gt;支持指標&lt;/li&gt;
+&lt;li&gt;快&lt;/li&gt;
+&lt;li&gt;簡單，直接的語言，沒有太多的，高階內容和設計概念要學，跟專注於程式低階的概念&lt;/li&gt;
+&lt;li&gt;非OOP&lt;/li&gt;
+&lt;li&gt;支持union&lt;/li&gt;
+&lt;li&gt;無GC，有用戶進行記憶體管理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;我討厭的點&#34;&gt;我討厭的點&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;符號有時候會寫的很複雜&lt;/li&gt;
+&lt;li&gt;不支持函數式編程&lt;/li&gt;
+&lt;li&gt;不支持Polymophsim&lt;/li&gt;
+&lt;li&gt;除了擅長的領域外的生態庫很差&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;4---lua&#34;&gt;4 - Lua&lt;/h1&gt;
+&lt;h2 id=&#34;不重要的簡介-1&#34;&gt;不重要的簡介&lt;/h2&gt;
+&lt;p&gt;Lua是由巴西某所大學的&lt;a href=&#34;https://en.wikipedia.org/wiki/Roberto_Ierusalimschy&#34;&gt;Roberto Ierusalimschy&lt;/a&gt;，Luiz Henrique de Figueiredo和Waldemar Celes，於1992年開發的，讀作魯～啊。語言的特點是直譯器（Lua官方）或編譯器（LuaJIT）非常的小，動態語言，容易用C擴充，容易嵌入C語言作為腳本語言用，並且語言本身的關鍵字和標準庫的內容都不算多，沒有python或javascript那些煩人的東西後，這讓lua顯得非常好學，主要用於遊戲，一般搭配love2d遊戲引擎，但遊戲引擎的數量非常多，像是有PICO-8，Defold和等等。我個人認為Lua適合開發一些消耗沒這麼大的遊戲。&lt;/p&gt;
+&lt;h2 id=&#34;我喜歡的點-1&#34;&gt;我喜歡的點&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;易學&lt;/li&gt;
+&lt;li&gt;寫法很語法化&lt;/li&gt;
+&lt;li&gt;相較其他腳本語言顯得非常快速&lt;/li&gt;
+&lt;li&gt;有些API跟C API相似&lt;/li&gt;
+&lt;li&gt;關鍵字很少&lt;/li&gt;
+&lt;li&gt;標準庫很小&lt;/li&gt;
+&lt;li&gt;可以用於遊戲開發&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;我討厭的點-1&#34;&gt;我討厭的點&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;生態庫集中在遊戲，其他的領域幾乎不能用&lt;/li&gt;
+&lt;li&gt;作為嵌入腳本語言，有時候很依賴執行環境&lt;/li&gt;
+&lt;li&gt;不支持靜態型別&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;3---ruby&#34;&gt;3 - Ruby&lt;/h1&gt;
+&lt;h2 id=&#34;不重要的簡介-2&#34;&gt;不重要的簡介&lt;/h2&gt;
+&lt;p&gt;ruby是由松本幸弘開發的動態語言，目的是弄出更好的perl，語法類似perl和smalltalk。ruby是非常重物件導向的語言，所有的基礎型別都是物件，包括模組等等。ruby還有很多別的語言都沒有的型別，Atom，基本上就是一個不可變的String，一般會遵守變數和函數命名方式。&lt;/p&gt;
+&lt;h2 id=&#34;我喜歡的點-2&#34;&gt;我喜歡的點&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;語法美麗&lt;/li&gt;
+&lt;li&gt;支持Atom資料型別&lt;/li&gt;
+&lt;li&gt;輔助函数很多很完善&lt;/li&gt;
+&lt;li&gt;較完整的支持OOP（但還是不支持Polymophism）&lt;/li&gt;
+&lt;li&gt;支持函數式編程&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;我討厭的點-2&#34;&gt;我討厭的點&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;速度慢&lt;/li&gt;
+&lt;li&gt;不支持靜態型別&lt;/li&gt;
+&lt;li&gt;不支持Polymophism&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;2---rust&#34;&gt;2 - Rust&lt;/h1&gt;
+&lt;h2 id=&#34;不重要的簡介-3&#34;&gt;不重要的簡介&lt;/h2&gt;
+&lt;p&gt;Rust是由Mozilla開發的程式語言，沒有GC，主要宣揚記憶體安全和效率。語言本身的速度非常快，並且沒有”無”的概念，取而代之的是Option資料型別，要靠match來處理無和存在數值的邏輯，Rust借鑑了一些FP概念，使這個語言變得非常的獨特並且比C++簡單。Rust有專屬自己的記憶體處理方法，ownership and borrowing，使它不需要特別去處理記憶體。&lt;/p&gt;
+&lt;h2 id=&#34;我喜歡的點-3&#34;&gt;我喜歡的點&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;較完整的支持函數式編程，支持closure，monads，match，destruct，union，tuple等等&lt;/li&gt;
+&lt;li&gt;可以很好的操控型別的可變性&lt;/li&gt;
+&lt;li&gt;支持指標和reference&lt;/li&gt;
+&lt;li&gt;無GC，使用獨特的記憶體管理方式&lt;/li&gt;
+&lt;li&gt;強大的macro&lt;/li&gt;
+&lt;li&gt;記憶體安全&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;我討厭的點-3&#34;&gt;我討厭的點&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;語言複雜&lt;/li&gt;
+&lt;li&gt;記憶體管理的方式需要時間適應&lt;/li&gt;
+&lt;li&gt;依賴管理器下載庫的時候下載的很慢並且庫的大小很大，卻對此沒有進行優化&lt;/li&gt;
+&lt;li&gt;編譯很慢&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;1---elixir&#34;&gt;1 - Elixir&lt;/h1&gt;
+&lt;h2 id=&#34;不重要的簡介-4&#34;&gt;不重要的簡介&lt;/h2&gt;
+&lt;p&gt;由José Valim在於2012年開發，語言運行在BEAM（erlang的虛擬機）虛擬機，可以使用erlang的一些東西，，強型別，動態語言，快速，函數式編程的語言。非常適合FP新手，他有一部分FP的內容，但是沒有複雜的部分，這讓新手可以很快的理解FP的重點，並專注於問題本身。主要搭配phoenix用于後端開發。&lt;/p&gt;
+&lt;h2 id=&#34;我喜歡的點-4&#34;&gt;我喜歡的點&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;函數式語言&lt;/li&gt;
+&lt;li&gt;支持polymophism&lt;/li&gt;
+&lt;li&gt;支持pipe operator&lt;/li&gt;
+&lt;li&gt;Ruby相似語法&lt;/li&gt;
+&lt;li&gt;函數式編程的知識量不需要太多&lt;/li&gt;
+&lt;li&gt;支持Atom&lt;/li&gt;
+&lt;li&gt;快&lt;/li&gt;
+&lt;li&gt;支持不可變資料型別&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;我討厭的點-4&#34;&gt;我討厭的點&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;不支持動態型別&lt;/li&gt;
+&lt;li&gt;不提供更深入的函數式編程內容，像是partial，monads，monoid，union enum，等等。不過對elixir來說已足夠&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;總結&#34;&gt;總結&lt;/h1&gt;
+&lt;p&gt;身為函數式語言熱愛者，怎麼可能喜歡不支持函數式編程的語言。對C的寬容最高了，基本上我喜歡的語言都要幾個要素，快，簡單，支持函數式編程和&lt;del&gt;巴西人開發&lt;/del&gt;。&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
