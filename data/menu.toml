@@ -1,18 +1,12 @@
 [[entries]]
-title = "info"
+title = "info | 資訊"
 
   [[entries.entries]]
-  title = "a (nearly) no-CSS, fast, minimalist Hugo theme ported from <a href='https://github.com/riggraz/no-style-please'>riggraz/no-style-please</a>."
-
-  [[entries.entries]]
-  title = "github repo"
-  url = "https://github.com/riggraz/no-style-please"
-
-  [[entries.entries]]
-  title = "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
+  title = "Github"
+  url = "https://github.com/MiniAppleTheApple"
 
 [[entries]]
-title = "all posts"
+title = "all posts | 所有的文章"
 
   [entries.post_list]
   limit = 5
@@ -21,33 +15,19 @@ title = "all posts"
   show_more_url = "posts"
 
 [[entries]]
-title = "posts by category"
+title = "中文"
 
   [entries.post_list]
-  section = "posts"
+  section = "chinese"
+  show_more = true
+  show_more_text = "更多的文章"
+  show_more_url = "chinese"
+
+[[entries]]
+title = "English"
+
+  [entries.post_list]
+  section = "english"
   show_more = true
   show_more_text = "See more posts..."
-  show_more_url = "posts"
-
-[[entries]]
-title = "rss"
-url = "index.xml"
-
-[[entries]]
-title = "another list"
-
-  [[entries.entries]]
-  title = "with subitems"
-
-    [[entries.entries.entries]]
-    title = "with subsubitems"
-
-    [[entries.entries.entries]]
-    title = "example page"
-    url = "about"
-
-[[entries]]
-title = "PRO TIP"
-entries = [
-   { title = "to edit this menu, edit data/menu.toml file" }
-  ]
+  show_more_url = "english"

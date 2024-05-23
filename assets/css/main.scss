@@ -20,8 +20,14 @@
   figcaption { color: $--secondary-text-color; }
 }
 
+$tom-thumb: #344e41;
+$lunar-green: #3a5a40;
+$glade-green: #588157;
+$swamp-green: #a3b18a;
+$timberwolf: #dad7cd;
+
 @mixin dark-appearance {
-  @include theme(#212121, #fafafa, #eeeeee, #0071bc, #a359e9);
+  @include theme($tom-thumb, $timberwolf, $lunar-green, $swamp-green, $glade-green);
 }
 
 @mixin light-appearance {
@@ -45,9 +51,9 @@ body[a="light"] { @include light-appearance; }
 html { height: 100%; }
 
 body {
-  font-family: monospace;
+  font-family: "Jetbrains Mono", "jf open 粉圓 2.0", monospace;
   font-size: 16px;
-  line-height: 1.4;
+  line-height: 1.6;
   margin: 0;
   min-height: 100%;
   overflow-wrap: break-word;
@@ -127,4 +133,8 @@ img {
 figcaption {
   text-align: center;
   opacity: 0.5;
+}
+
+.title {
+  font-size: 4rem;
 }

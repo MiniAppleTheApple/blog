@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog | 部落格</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on Blog | 部落格</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 23 May 2024 02:03:33 -0300</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>命名規則</title>
+      <link>//localhost:1313/chinese/naming-rule/</link>
+      <pubDate>Thu, 23 May 2024 02:03:33 -0300</pubDate>
+      <guid>//localhost:1313/chinese/naming-rule/</guid>
+      <description>簡介 很多人很苦惱於幫變數取名，但很多時候並不如期望的一樣有效。可能名字會太長，也有可能太短，太抽象等。但在另一方面，有一群人完全不去管命名規則，把某人搞瘋就丟給你了。&#xA;太過執着於完美的名字 其實對程序員來說，很難在短時間內想出一個好的名字，如果太過於執着於完美的名字，則有可能在想名字這邊想太久。項目不等人，我們不會有這麼多時間來去想名字，而且很多時候就算付出了時間也很難想出一個好名字，而想到名字的時候，我們也可能把我們的靈感給忘了。所以我認爲實現功能的時候可以使用一些比較「簡陋的名字」，但不代表這樣就好了，你還需要在實現完一部分後回去改成「比較好的名字」。&#xA;註解 位於「看不懂的名字」和「看得懂得名字」之間，可以透過註解可以讓「看不懂的名字」變得更好懂，但不代表說你不需要去將他轉換成「看得懂得名字」。註解出了讓閱讀者理解以外，也可以讓閱讀者幫你去想名字。&#xA;單詞量太少 這是很多非英文母語者會遇到的問題，我的解決方法是：大概列出幾個關鍵詞，對他們按照邏輯的進行組合。&#xA;重構 名字取的不算好的話也可以進行重構。如果你並不瞭解什麼是重構，大概可以理解成把你的代碼重新整理一下。重構是一個回去看自己代碼有沒有能讓讀者更容易懂的一個過程。&#xA;待續&amp;hellip;</description>
+    </item>
+  </channel>
+</rss>
