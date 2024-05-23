@@ -20,8 +20,7 @@ title = "中文"
   [entries.post_list]
   section = "chinese"
   show_more = true
-  show_more_text = "更多的文章"
-  show_more_url = "chinese"
+  show_more_text = "更多的文章。。。"
 
 [[entries]]
 title = "English"
@@ -31,3 +30,12 @@ title = "English"
   show_more = true
   show_more_text = "See more posts..."
   show_more_url = "english"
+
+[[entries]]
+title = "Portugues"
+
+  [entries.post_list]
+  section = "portugues"
+  show_more = true
+  show_more_text = "Ver mais postagens..."
+  show_more_url = "portugues"
