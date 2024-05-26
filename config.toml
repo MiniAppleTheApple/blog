@@ -1,5 +1,4 @@
 title = "Blog | 部落格"
-baseURL = 'https://miniappletheapple.netlify.app'
 
 [module]
   [module.hugoVersion]
