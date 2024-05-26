@@ -158,5 +158,7 @@ code {
 
 @font-face {
   font-family: "jf open 粉圓 2.0";
-  src: url("/jf-openhuninn-2.0.ttf");
+  src: url('/jf-openhuninn-2.0.woff2') format('woff2'),
+       url('/jf-openhuninn-2.0.woff') format('woff'),
+       url('/jf-openhuninn-2.0.ttf') format('truetype');
 }
