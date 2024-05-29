@@ -1,12 +1,27 @@
 [[entries]]
-title = "info | 資訊"
+title = "Info"
 
   [[entries.entries]]
   title = "Github"
   url = "https://github.com/MiniAppleTheApple"
 
 [[entries]]
-title = "all posts | 所有的文章"
+title = "Language"
+
+  [[entries.entries]]
+  title = "中文"
+  url = "/chinese"
+
+  [[entries.entries]]
+  title = "English"
+  url = "/english"
+
+  [[entries.entries]]
+  title = "Portugues"
+  url = "/portugues"
+
+[[entries]]
+title = "all posts"
 
   [entries.post_list]
   limit = 5

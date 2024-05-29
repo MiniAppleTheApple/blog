@@ -2,6 +2,8 @@
 title: "命名規則"
 date: 2024-05-23T02:03:33-03:00
 draft: false 
+tags:
+    - maintainable 
 ---
 
 # 簡介
