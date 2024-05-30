@@ -21,5 +21,8 @@
   {{ $sass := resources.Get "css/main.scss" }}
   {{ $style := $sass | resources.ToCSS $options | resources.Fingerprint "sha512" }}
   <link rel="stylesheet" href="{{ $style.Permalink | relURL }}" integrity="{{ $style.Data.Integrity }}" />
-  {{ if .Params.mathjax }} {{ partial "mathjax.html" . }} {{ end }}
+  {{ $scheme := resources.Get "css/style.css" }}
+  <link rel="stylesheet" href="{{ $scheme.Permalink | relURL }}"/>
+
+  {{ partial "mathjax.html" . }}
 </head>

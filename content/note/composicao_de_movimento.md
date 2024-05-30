@@ -8,32 +8,26 @@ draft: false
 
 # Composicao de movimento 
 
-- V relative 是行駛的速度
-- V inner 是那個物體總移動的速度
-- V outer 是V inner物體所在的物體的速度
+- {{< texi "V relative" >}} 是行駛的速度
+- {{< texi "V inner" >}} 是那個物體總移動的速度
+- {{< texi "V outer" >}} 是{{< texi "V inner" >}}物體所在的物體的速度
 
 這樣代表說
 
 ### 如果移動的物體和他所在的物體的方向是相同的
 
-```
-V relative = V inner + V outer
-V inner = V relative + V outer
-```
+{{< texd "V relative = V inner + V outer" >}}
+{{< texd "V inner = V relative + V outer" >}}
 
 ### 如果是相反的
 
-```
-V relative = V inner - V outer
-V inner = V relative + V outer
-```
+{{< texd "V relative = V inner - V outer" >}}
+{{< texd "V inner = V relative + V outer" >}}
 
 ### 如果方向不同
 
-```
-V relative = V inner + V outer
-V inner = V relative + V outer
-```
+{{< texd "V relative = V inner + V outer" >}}
+{{< texd "V inner = V relative + V outer" >}}
 
 ## 輪胎
 
@@ -57,12 +51,12 @@ V inner = V relative + V outer
 
 融合後，假設輪胎向右邊移動，每個點的力爲：
 
-- 上面的點向右邊移動，因爲兩種力向同一個方向疊加，爲2v
-- 右邊的點向右下移動，兩種力中間形成一條斜線，爲$$sqrt{2}v
+- 上面的點向右邊移動，因爲兩種力向同一個方向疊加，爲{{< texi "2v" >}}
+- 右邊的點向右下移動，兩種力中間形成一條斜線，爲{{< texi "v\sqrt{2}" >}}
 - 下面的點向不移動，爲0
-- 左邊的點向左上移動，兩種力中間形成一條斜線，爲$$sqrt{2}v
+- 左邊的點向左上移動，兩種力中間形成一條斜線，爲{{< texi "v\sqrt{2}" >}}
 
 # 重點
 
-- 記得a ^ 2 = b ^ 2 + c ^ 2
+- 記得{{< texi "a ^ 2 = b ^ 2 + c ^ 2" >}}
 - [輪胎](#輪胎)

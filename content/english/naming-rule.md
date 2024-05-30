@@ -1,7 +1,7 @@
 ---
 title: "Naming Rule"
 date: 2024-05-26T19:43:10-03:00
-draft: true 
+draft: false 
 ---
 
 # Introduction

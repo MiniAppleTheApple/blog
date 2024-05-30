@@ -1,4 +1,5 @@
-title = "Blog | 部落格"
+title = "MiniApple's Blog"
+mathjax = true
 
 [module]
   [module.hugoVersion]
@@ -21,7 +22,7 @@ title = "Blog | 部落格"
     lineNoStart = 1
     lineNos = false
     lineNumbersInTable = true
-    noClasses = true
+    noClasses = false 
     noHl = false
     style = 'rrt'
     tabWidth = 4

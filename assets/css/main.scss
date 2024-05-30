@@ -1,9 +1,18 @@
 // -------------- THEME SWITCHER -------------- //
-@mixin theme($--bg-color, $--primary-text-color, $--secondary-text-color, $--link-color, $--visited-link-color) {
+@use "sass:map";
+
+@mixin theme($scheme) {
+  $--bg-color: map-get($scheme, "bg");
+  $--primary-text-color: map-get($scheme, "primary-text");
+  $--secondary-text-color: map-get($scheme, "secondary-text");
+  $--link-color: map-get($scheme, "link");
+  $--visited-link-color: map-get($scheme, "visited-link-color");
+  $--h1-color: map-get($scheme, "h1");
+  $--h2-color: map-get($scheme, "h2");
+  $--h3-color: map-get($scheme, "h3");
+
   background-color: $--bg-color;
-
   color: $--primary-text-color;
-
   a {
     color: $--link-color;
     text-decoration: none;
@@ -18,35 +27,43 @@
   }
 
   figcaption { color: $--secondary-text-color; }
+
+  :is(h1, h2, h3):target {
+    background: none;
+    text-decoration: underline;
+  }
+
+  h1 {
+    color: $--h1-color;
+    border-bottom: 2px solid $--primary-text-color;
+  }
+
+  h2 {
+    color: $--h2-color;
+    border-bottom: 2px solid $--primary-text-color;
+  }
+
+  h3 {
+    color: $--h3-color;
+    border-bottom: 2px solid $--primary-text-color;
+
+  }
 }
 
-$tom-thumb: #344e41;
-$lunar-green: #3a5a40;
-$glade-green: #588157;
-$swamp-green: #a3b18a;
-$timberwolf: #dad7cd;
+$scheme: (
+  "bg": #282828,
+  "primary-text": #ebdbb2,
+  "secondary-text": #cc241d,
+  "link": #689d6a,
+  "visited-link": #b16286,
+  "h1": #fb4934,
+  "h2": #fabd2f,
+  "h3": #b8bb26,
+);
 
-@mixin dark-appearance {
-  @include theme($tom-thumb, $timberwolf, $lunar-green, $swamp-green, $glade-green);
+body {
+  @include theme($scheme);
 }
-
-@mixin light-appearance {
-  @include theme(#ffffff, #212121, #666666, #1e70bf, #921292);
-}
-
-body[a="dark"] { @include dark-appearance; }
-body[a="light"] { @include light-appearance; }
-
-
-@media (prefers-color-scheme: dark) {
-  body[a="auto"] { @include dark-appearance; }
-}
-
-@media (prefers-color-scheme: light) {
-  body[a="auto"] { @include light-appearance; }
-}
-
-// -------------------------------------------- //
 
 html { height: 100%; }
 
@@ -139,10 +156,7 @@ figcaption {
   font-size: 4rem;
 }
 
-h1 {
-  font-size: 2.25rem;
-  border-bottom: 2px solid $timberwolf;
-}
+
 
 h2 {
   font-size: 1.75rem;
