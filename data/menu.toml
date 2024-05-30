@@ -31,6 +31,7 @@ title = "all posts"
 
 [[entries]]
 title = "中文"
+url = "/chinese"
 
   [entries.post_list]
   section = "chinese"
@@ -39,6 +40,7 @@ title = "中文"
 
 [[entries]]
 title = "English"
+url = "/english"
 
   [entries.post_list]
   section = "english"
@@ -48,6 +50,7 @@ title = "English"
 
 [[entries]]
 title = "Portugues"
+url = "/portugues"
 
   [entries.post_list]
   section = "portugues"
