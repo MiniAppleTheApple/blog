@@ -27,7 +27,7 @@
     {{ end }}
     <ul>
         {{- range $post := $posts -}}
-	  {{- if ne .CurrentSection (.Site.GetPage "/note") }}
+	  {{- if ne .CurrentSection (.Site.GetPage .Site.Data.menu.hiding_directory) }}
 	  <li>
 	    <span>{{- ($post.Date | time.Format site.Params.theme_config.date_format) }}</span>
 	    <a href="{{ $post.Permalink | relURL }}">{{ $post.Title }}</a>
