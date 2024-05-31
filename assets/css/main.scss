@@ -48,6 +48,12 @@
     border-bottom: 2px solid $--primary-text-color;
 
   }
+  .navbar {
+    font-size: 1.125em;
+    * {
+      color: $--h2-color !important;
+    }
+  }
 }
 
 $scheme: (
@@ -75,6 +81,8 @@ body {
   min-height: 100%;
   overflow-wrap: break-word;
 }
+
+
 
 .post-meta { text-align: right; }
 
