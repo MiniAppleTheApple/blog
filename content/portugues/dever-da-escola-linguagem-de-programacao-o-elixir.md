@@ -16,7 +16,7 @@ Elixir e uma linguagem de programacao, que e considerado dinamico, strong typing
 
 ## Funcional
 
-Funcional e uma paradigma mais antigo do que a paradigma OOP(ou POO, que significa programacao orientado ao objeto). Os seus principais beneficios sao a consistência do dado e transferencia referencial. Ele e baseado em dois conceitos essencial: funcao pura e estrutura de dado imutável.
+Funcional e uma paradigma mais antigo do que a paradigma OOP(ou POO, que significa programacao orientado ao objeto), os seus principais beneficios sao a consistência do dado e transferencia referencial. Ele e baseado em dois conceitos essenciais: funcao pura e estrutura de dado imutável.
 
 ### Funcao pura
 
@@ -24,7 +24,7 @@ Funcional e uma paradigma mais antigo do que a paradigma OOP(ou POO, que signifi
 
 ### Estrutura de dado imutavel
 
-Estrutura de dado imutavel, como o nome diz, e um tipo de estrutura de dado, mas imutavel. Essa cacteristica trouxe uma grande consistência na programacao, pois os dados nunca mudam, eles somente se produzem em um dado novo baseado nele. Assim, os dados nao mudam sincronizado, mas requere o programador mudar com a sua intenção.
+Estrutura de dado imutavel, como o nome diz, e um tipo de estrutura de dado, mas imutavel. Essa cacteristica trouxe uma grande consistência na programacao, pois os dados nunca mudam, eles somente se produzem em um dado novo baseado nele. Assim, os dados nao mudam sincronizado, mas requere o programador mudar explicita.
 
 ### Exemplos
 
